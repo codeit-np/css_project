@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      h1 {
+        font-size: 60px;
+      }
+      .hero {
+        display: flex;
+        align-items: center;
+        gap: 50px;
+      }
+
+      .btn-primary {
+        background-color: orangered;
+        padding: 10px 20px;
+        color: white;
+        text-decoration: none;
+      }
+
+      .btn-primary:hover {
+        background-color: rgb(217, 60, 3);
+      }
+
+      p {
+        padding: 10px 0;
+      }
+
+      .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 50px;
+        border-bottom: 1px solid gray;
+      }
+
+      .menu {
+        display: flex;
+        gap: 16px;
+      }
+
+      .menu a {
+        font-size: 18px;
+        text-decoration: none;
+      }
+
+      .line-parent {
+        display: flex;
+        justify-content: center;
+      }
+      .line {
+        width: 100px;
+        height: 2px;
+        background-color: red;
+      }
+    </style>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="line-parent">
+      <div class="line"></div>
+    </div>
+    <header>
+      <nav>
+        <div class="navbar">
+          <!-- Logo -->
+          <div>
+            <i class="fa-solid fa-graduation-cap" style="font-size: 30px"></i>
+            <span>Lotus English School</span>
+          </div>
+
+          <!-- Menu -->
+          <div class="menu">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Service</a>
+            <a href="#">Contact</a>
+          </div>
+
+          <!-- Login -->
+          <div>
+            <a href="#" class="btn-primary">Login</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <!-- Hero Section -->
+      <section>
+        <div class="hero">
+          <div>
+            <h1>Welcome to Web Design Class</h1>
+            <p>
+              Liven up your web layout wireframes and mockups with one of these
+              lorem ipsum generators. A/B Testing & Surveys. Insights &
+              Analytics. Liven up your web layout wireframes and mockups with
+              one of these lorem ipsum generators. A/B Testing & Surveys.
+              Insights & Analytics.
+            </p>
+            <a class="btn-primary" href="#">Join Live Class</a>
+          </div>
+          <div>
+            <img src="https://picsum.photos/500/500" alt="hero-image" />
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+</html>
