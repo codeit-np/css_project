@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .parent {
+        width: 500px;
+        height: auto;
+        border: 1px solid black;
+        padding: 20px;
+        box-sizing: border-box;
+        position: relative;
+        background-color: whitesmoke;
+        transition: 0.3s ease-in-out;
+        margin: 100px;
+        transform: rotate(-3deg);
+      }
+
+      .parent:hover {
+        background-color: rgb(207, 205, 205);
+        box-shadow: 10px 10px 10px gray;
+        transform: translate(50px);
+      }
+
+      .btn-close {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="parent">
+      <h1>Welcome to CSS</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero nulla
+        hic veritatis natus, architecto vitae sed. Animi quas reiciendis, modi,
+        reprehenderit iusto laudantium adipisci dolorem voluptatum eveniet unde
+        temporibus quo.
+      </p>
+
+      <button>Read More</button>
+      <button class="btn-close">X</button>
+    </div>
+  </body>
+</html>
